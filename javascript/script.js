@@ -30,14 +30,14 @@ console.log (discountMinorenni);
 let discountOver = price * 0.4;
 console.log (discountOver);
 
-if ( eta <= 18 ){
+if ( eta <= 18 ) {
     price = price - discountMinorenni;
 } 
-else ( eta >= 65) {   
+else if ( eta >= 65) {   
     price = price - discountOver;
 }
 
 console.log(price);
 
 // OUTPUT
-document.getElementById('Price-final').innerHTML = price
+document.getElementById('Price-final').innerHTML = price;
