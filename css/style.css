@@ -4,3 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#Price-final{
+    color:black;
+    border: 1px solid black;
+    margin: 100px 200px;
+    display: inline-block;
+}

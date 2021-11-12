@@ -40,4 +40,4 @@ else if ( eta >= 65) {
 console.log(price);
 
 // OUTPUT
-document.getElementById('Price-final').innerHTML = price;
+document.getElementById('Price-final').innerHTML = "Price: " + price.toFixed(2) ;
